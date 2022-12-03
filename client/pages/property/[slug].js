@@ -14,6 +14,7 @@ const Property = ({
   host,
   reviews,
 }) => {
+  const reviewAmount = reviews.length;
   return (
     <div className="container">
       <h1>
@@ -46,6 +47,15 @@ const Property = ({
         This place isn't suitable for pets and the host does not allow parties
         or smoking.
       </p>
+      <div className="price-box">
+        <h2>{pricePerNight} ₺</h2>
+        <h4>
+          {reviewAmount} review{isMultiple(reviewAmount)}
+        </h4>
+        <div className="button" onClick={() => {}}>
+          Change Dates
+        </div>
+      </div>
     </div>
   );
 };
