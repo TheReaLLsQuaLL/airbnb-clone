@@ -1,6 +1,7 @@
 import { sanityClient, urlFor } from "../sanity";
 import Link from "next/link";
 import { isMultiple } from "../utils";
+import DashboardMap from "../components/DashboardMap";
 
 export default function Home({ properties }) {
   console.log(properties);
@@ -25,7 +26,9 @@ export default function Home({ properties }) {
                 </Link>
               ))}
             </div>
-            <div className="map"></div>
+          </div>
+          <div className="map">
+            <DashboardMap properties={properties} />
           </div>
         </div>
       )}

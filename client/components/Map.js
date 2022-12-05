@@ -23,7 +23,7 @@ const Map = ({ location }) => {
 
   const onLoad = React.useCallback(function callback(map) {
     // This is just an example of getting and using the map instance!!! don't just blindly copy!
-    const bounds = new window.google.maps.LatLngBounds(center);
+    const bounds = new window.google.maps.LatLngBounds();
     map.fitBounds(bounds);
 
     setMap(map);
