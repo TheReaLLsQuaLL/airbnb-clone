@@ -97,10 +97,10 @@ padding: 10px;
   width: 50%;
 }
 
-nav {
+.nav {
 position: sticky;
 z-index: 100;
-box-shadow: rgb(0 0 0 0 /12%) 0 6px 16px;
+box-shadow: rgb(0 0 0 /12%) 0 6px 16px;
 padding: 30px;
 }
 
