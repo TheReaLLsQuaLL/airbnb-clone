@@ -66,3 +66,33 @@ body {
 .information{
   width: 60%;
 }
+
+/*main{
+display: flex;
+flex-direction: row;
+}*/
+
+.feed-container{
+width: 50%;
+height: 100%;
+background-color: #f8f8f8;
+padding: 20px;
+}
+
+.feed{
+display: flex;
+flex-wrap: wrap;
+}
+
+.card{
+padding: 10px;
+}
+
+.card img{
+  max-width: 250px;
+  border-radius: 20px;
+}
+
+.map{
+  width: 50%;
+}
