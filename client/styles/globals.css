@@ -96,3 +96,17 @@ padding: 10px;
 .map{
   width: 50%;
 }
+
+nav {
+position: sticky;
+z-index: 100;
+box-shadow: rgb(0 0 0 0 /12%) 0 6px 16px;
+padding: 30px;
+}
+
+.logo {
+background-image: url('../images/airbnb-logo.png');
+background-size: 130px;
+width: 130px;
+height: 40px;
+}
